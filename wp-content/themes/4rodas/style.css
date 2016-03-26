@@ -1,0 +1,16 @@
+/*
+Theme Name: 4Rodas - Abril
+Theme URI: https://github.com/cjafet/4rodas
+Description: 4Rodas Theme
+Author: Carlos Jafet Neto
+Author URI: https://github.com/cjafet/4rodas
+Version: 1.0
+Tags: responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+*/
+
+@import url('css/bootstrap.css');
+@import url('css/4rodas.css');

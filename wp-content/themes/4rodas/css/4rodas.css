@@ -1,0 +1,271 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+    font-family: 'Dosis', sans-serif;
+    font-size: 14px;
+	font-weight: 700;
+    line-height: 1.42857143;
+    color: #fff;
+    background-color: #e6e6e6;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+/*@media only screen and (min-width : 900px) {
+	.container {
+    width: 1319px;
+	padding-left: 0;
+	padding-right: 0;
+	}
+    }*/
+
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.col-lg-3, .col-lg-6, .col-lg-12 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.custom-col-lg-6 {
+    width: 45%;
+}
+
+.navbar-nav {
+    margin: 0;
+	padding-top: 10px;
+}
+
+.nav-2 {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #d41f1f;
+	padding-top: 11px;
+	padding-left: 18px;
+}
+
+
+.navbar-nav-2 > li > a:focus, .navbar-nav-2 > li > a:hover {
+    text-decoration: none;
+	background-color: rgba(238, 238, 238, 0);
+}
+
+.navbar-default {
+    background-color: #ed1c24;
+    border-color: #e7e7e7;
+	
+}
+
+.navbar-default-2 {
+    background-color: #242424;
+    border-color: #242424;
+	
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #FFF;
+	padding-right: 12px;
+	padding-left: 15px;
+}
+
+
+
+.navbar-default-2 .navbar-nav-2 > li > a {
+    color: #FFF;
+	padding: 10px 13px;
+}
+
+.navbar {
+    position: relative;
+	/*min-width: 1319px;*/
+	margin-top: 40px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+	padding-top: 5px;
+	padding-bottom: 14px;
+	border-radius: 0px;
+}
+
+@media only screen and (max-width : 991px) {
+	.navbar-default .navbar-nav > li > a {
+    color: #FFF;
+	padding-right: 12px;
+	padding-left: 15px;
+	}
+	.navbar {
+	width:87.4% !important;	
+	}
+}
+
+
+.navbar-2 {
+    position: relative;
+	/*min-width: 1319px;*/
+	max-height: 29px;
+	margin-top: 0px;
+    margin-bottom: 0px;
+    /*border: 1px solid transparent;*/
+	border-radius: 0px;
+}
+
+.navbar-nav-2 {
+	height: 29px;
+}
+
+.navbar-header-2 {
+    float: left;
+	width: 151px;
+	height: 29px;
+}
+
+.navbar-nav-2 > li {
+    float: left;
+    font-size: 12px;
+	margin-top: -4px;
+	padding: 0 4px;
+}
+
+/*.navbar-nav {
+	height:80px;
+}*/
+
+.navbar-brand {
+    float: left;
+    height: 63px;
+	padding-right: 54px;
+	padding-left: 0;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    color: #555;
+    background-color: #fff;
+}
+
+.dropdown-menu {
+	border: 0;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: rgba(221, 221, 221, 0);
+}
+.navbar-default .navbar-toggle {
+    border-color: rgba(221, 221, 221, 0);
+}
+
+.glyphicon.glyphicon-remove {
+    font-size: 25px;
+	padding-right: 0;
+	padding-top: 2px;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 11px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.glyphicon.glyphicon-search {
+    font-size: 25px;
+	padding-left: 18px;
+	padding-top: 22px;
+	padding-bottom: 15px;
+	padding-right: 2px;
+}
+
+.glyphicon {
+    float: right;
+}
+
+.search {
+	position:relative;
+	float:left;
+
+}
+
+.search-lg {
+	position:absolute;
+	right: 146px;
+	top: 22px;
+	color: gray;
+}
+
+.search-icon-lg {
+	    font-size: 15px !important;
+	}
+	
+.form-control {
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-form .form-control {
+    display: inline-block;
+    width: 145px;
+    vertical-align: middle;
+	border: 0;
+	font-weight: 400;
+}
+
+@media only screen and (max-width : 760px) {
+	.nav > li {
+	border-bottom: 1px solid #c21c1c;
+	}
+	.navbar-collapse.in {
+    background-color: #d41f1f;
+	}
+	.navbar-default {
+    background-color: #d41f1f;
+	}
+	.navbar {
+    padding-top: 0;
+	/*padding-bottom: 0;*/
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #d41f1f;
+    margin-top: 13px;
+	}
+	.navbar-brand {
+    float: left;
+    height: 63px;
+    padding-right: 0;
+    padding-left: 12px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+	}
+    }
+	
+	@media only screen and (max-width : 320px) {
+	.navbar-brand {
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+	}
+    }
+	
+	.container {
+	min-width: 253px;
+}
