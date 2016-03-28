@@ -15,6 +15,52 @@ body {
   overflow: auto;
 }
 
+.hyphenate {
+ -ms-word-break: break-all;
+     word-break: break-all;
+
+     // Non standard for webkit
+     word-break: break-word;
+
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+        hyphens: auto;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.chamada {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 700;
+	font-size: 21px;
+	color:#000;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 15px;
+}
+
+.texto {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color:#000;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+}
+
+.center {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
 /*@media only screen and (min-width : 900px) {
 	.container {
     width: 1319px;
@@ -53,7 +99,7 @@ body {
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: #d41f1f;
-	padding-top: 11px;
+	padding-top: 0;
 	padding-left: 18px;
 }
 
@@ -95,21 +141,14 @@ body {
     margin-bottom: 0px;
     border: 1px solid transparent;
 	padding-top: 5px;
-	padding-bottom: 14px;
+	padding-bottom: 9px;
 	border-radius: 0px;
 }
 
-@media only screen and (max-width : 991px) {
-	.navbar-default .navbar-nav > li > a {
-    color: #FFF;
-	padding-right: 12px;
-	padding-left: 15px;
-	}
-	.navbar {
-	width:87.4% !important;	
-	}
-}
 
+.padding-banner {
+	padding-top:40px;
+	}
 
 .navbar-2 {
     position: relative;
@@ -207,8 +246,8 @@ body {
 
 .search-lg {
 	position:absolute;
-	right: 146px;
-	top: 22px;
+	right: 10px;
+	top: -6px;
 	color: gray;
 }
 
@@ -229,6 +268,40 @@ body {
 	font-weight: 400;
 }
 
+@media only screen and (max-width : 991px) {
+	.navbar-default .navbar-nav > li > a {
+    color: #FFF;
+	padding-right: 12px;
+	padding-left: 15px;
+	}
+	.navbar {
+	width:87.4% !important;	
+	padding-top: 0;
+	margin-top: 10px;
+	}
+	.navbar-brand {
+    padding-top: 7px;
+	}
+	.padding-banner {
+	padding-top:10px;
+	}
+}
+
+@media only screen and (max-width : 1200px) {
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #d41f1f;
+	padding-top: 0;
+	padding-left: 13px;
+}
+}
+
+@media (min-width: 1350px) {	
+.navbar-nav {
+	padding-left: 10px;
+}
+}
+
+
 @media only screen and (max-width : 760px) {
 	.nav > li {
 	border-bottom: 1px solid #c21c1c;
@@ -241,11 +314,19 @@ body {
 	}
 	.navbar {
     padding-top: 0;
+	margin-top: 10px;
 	/*padding-bottom: 0;*/
 	}
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: #d41f1f;
     margin-top: 13px;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #FFF;
+	}
+	.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+		color: #FFF;
+		background-color: rgb(194, 28, 28);
 	}
 	.navbar-brand {
     float: left;
@@ -254,6 +335,9 @@ body {
     padding-left: 12px;
     padding-bottom: 0px;
     padding-top: 0px;
+	}
+	.padding-banner {
+	padding-top:10px;
 	}
     }
 	

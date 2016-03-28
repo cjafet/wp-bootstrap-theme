@@ -1,4 +1,4 @@
-﻿<head>
+<head>
     <meta charset="utf-8">
     <title>4Rodas</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,6 +18,9 @@
   <body>
 
   <div class="container">
+  <div class="row padding-banner">
+  <div class="col-xs-14 col-sm-14 col-md-16 col-lg-16"><img src="wp-content/themes/4rodas/imagens/banner.jpg" class="img-responsive center" alt=""/></div>
+  </div>
   <nav class="navbar navbar-default">
 
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -36,63 +39,62 @@
         <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CARROS&nbsp;<span class="glyphicon glyphicon-chevron-down"></span></a>
         <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
+            <li><a href="#">Sub 1</a></li>
+            <li><a href="#">Sub 2</a></li>
+            <li><a href="#">Sub 3</a></li>
           </ul>
         </li>
         <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TESTES&nbsp;<span class="glyphicon glyphicon-chevron-down"></span></a>
         <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
+            <li><a href="#">Sub 1</a></li>
+            <li><a href="#">Sub 2</a></li>
+            <li><a href="#">Sub 3</a></li>
           </ul>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">NOTÍCIAS&nbsp;<span class="glyphicon glyphicon-chevron-down"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
+            <li><a href="#">Sub 1</a></li>
+            <li><a href="#">Sub 2</a></li>
+            <li><a href="#">Sub 3</a></li>
           </ul>
         </li>
         <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">AUTO-SERVIÇO&nbsp;<span class="glyphicon glyphicon-chevron-down"></span></a>
         <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
+            <li><a href="#">Sub 1</a></li>
+            <li><a href="#">Sub 2</a></li>
+            <li><a href="#">Sub 3</a></li>
           </ul>
         </li>
         <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GUIA DE COMPRAS&nbsp;<span class="glyphicon glyphicon-chevron-down"></span></a>
         <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
+            <li><a href="#">Sub 1</a></li>
+            <li><a href="#">Sub 2</a></li>
+            <li><a href="#">Sub 3</a></li>
           </ul>
         </li>
         <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TABELA FIPE&nbsp;<span class="glyphicon glyphicon-chevron-down"></span></a>
         <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
+            <li><a href="#">Sub 1</a></li>
+            <li><a href="#">Sub 2</a></li>
+            <li><a href="#">Sub 3</a></li>
           </ul>
         </li>
         <li class="visible-sm visible-md visible-lg"><a href="#">ASSINE</a></li>
+        <li>
+            <div class="search-lg"><span class="glyphicon glyphicon-search search-icon-lg visible-lg"></span></div>
+              <form class="navbar-form navbar-left visible-sm visible-md visible-lg" role="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="PESQUISAR">
+                </div>
+              </form>
+      </li>
       </ul>
-      <div class="search-lg"><span class="glyphicon glyphicon-search search-icon-lg visible-lg"></span></div>
-      <form class="navbar-form navbar-left visible-md visible-lg" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="PESQUISAR">
-        </div>
-      </form>
+      
         
     </div><!-- /.navbar-collapse -->
     </nav>
@@ -124,4 +126,4 @@
     </nav>
     </div><!-- /.container -->
 
-  <div class="container">
+ 
